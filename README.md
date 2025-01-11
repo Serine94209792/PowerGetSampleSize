@@ -1,16 +1,19 @@
 packages contain 4 functions, two of them rely on "pwr" packages. The examples are from the pdf in the class
 
 pwr results(getonesamplesizebypwr,gettwosamplesizebypwr) are slightly different from the results of classical methods(getonesamplesize, gettwosamplesize)
+
 library(PowerGetSampleSzie)
-  ###alpha为第一类错误，默认0.05，默认双侧检验
-  ###power为检验效能，默认0.8
-  ###delta为非劣界值或等效界值，默认0
-  ###pt实验组概率或均值
-  ###pc对照组概率或均值
-  ###p目标值
-  ###type为实验类型,包括Quantitative, Qualitative, Cohort Study, Case Control Study。pwr方法只包括Quantitative, Qualitative
-  ###sigma为标准差
-  ###equivalence是否为等效性实验，默认不是
+###alpha为第一类错误，默认0.05，默认双侧检验
+###power为检验效能，默认0.8
+###delta为非劣界值或等效界值，默认0
+###pt实验组概率或均值
+###pc对照组概率或均值
+###p目标值
+###type为实验类型,包括Quantitative, Qualitative, Cohort Study, Case Control Study。pwr方法只包括Quantitative, Qualitative
+###sigma为标准差
+###equivalence是否为等效性实验，默认不是
+
+
 #example 1:
 getonesamplesize(p=0.67,pt=0.88,type="Qualitative")
 getonesamplesizebypwr(p=0.67,pt=0.88,type="Qualitative")  ####pwr方法暂不支持有非劣或等效界值计算
