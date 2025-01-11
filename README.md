@@ -18,13 +18,13 @@ equivalence是否为等效性实验，默认不是
 ## example 1:
 ```
 getonesamplesize(p=0.67,pt=0.88,type="Qualitative")
-getonesamplesizebypwr(p=0.67,pt=0.88,type="Qualitative") pwr方法暂不支持有非劣或等效界值计算
+getonesamplesizebypwr(p=0.67,pt=0.88,type="Qualitative") #pwr方法暂不支持有非劣或等效界值计算
 
 ```
 ## example 2:
 ```
 getonesamplesize(sigma=2.5,p=3,pt=4,power=0.9,type="Quantitative")
-getonesamplesizebypwr(sigma=2.5,p=3,pt=4,power=0.9,type="Quantitative")pwr方法暂不支持有非劣或等效界值计算
+getonesamplesizebypwr(sigma=2.5,p=3,pt=4,power=0.9,type="Quantitative") #pwr方法暂不支持有非劣或等效界值计算
 
 ```
 
