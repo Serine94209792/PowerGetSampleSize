@@ -1,0 +1,12 @@
+Package: PowerGetSampleSzie
+Title: PowerGetSampleSzie
+Date: 2025-01-11
+Version: 0.0.1
+Author: SHY [aut,cre]
+Maintainer: SHY <serine94209792@gmail.com>
+Description: using power to get sample size
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: pwr,stats
